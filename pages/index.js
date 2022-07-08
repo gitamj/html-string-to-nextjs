@@ -31,12 +31,12 @@ export default function Home() {
         }
     ];
 
-    const data = new HtmlToReactParser().parseWithInstructions(htmlInput,()=>{return true},processingInstructions);
+    const elements = new HtmlToReactParser().parseWithInstructions(htmlInput,()=>{return true},processingInstructions);
 
     return (
         <>
         <h1>Home</h1>
-        {data}
+        {elements}
         </>
     )
 }
