@@ -7,7 +7,7 @@ const HtmlToReactParser = require('html-to-react').Parser;
 
 export default function Home() {
   
-    const htmlInput = '<p><a href="/contact">Contact</a></p><img class="img-fluid" width="200" height="200" src="/vercel.svg">';
+    const htmlInput = '<p><a href="/contact">Contact</a></p><img width="200" height="200" src="/vercel.svg">';
 
     const processingInstructions = [
         {
